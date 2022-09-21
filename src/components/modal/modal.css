@@ -1,0 +1,43 @@
+.classMainBack {
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	min-height: 100%;
+	padding: 5rem;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.classModal {
+	position: relative;
+	z-index: 20;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	max-width: 32rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	text-align: left;
+	background-color: #fff;
+	border-radius: 0.5rem;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.classButton {
+	height: 1.5rem;
+	width: 1.5rem;
+	position: absolute;
+	top: -0.5rem;
+	right: -0.5rem;
+	color: rgb(255 255 255 / 1);
+	background-color: rgb(0 0 0);
+	border-radius: 0.75rem;
+	padding: 0.25rem;
+}
+
